@@ -168,6 +168,7 @@ int main() {
      2. **選擇當前字元**：將該字元加入 `current` 後繼續遞迴 `powerset(str, index + 1, current + str[index])`。
 3. **終止條件**：當 `index` 等於字串長度時，表示已完成一種子集組合，印出 `(current)` 並返回。
 
+
 ---
 
 ## 程式實作
